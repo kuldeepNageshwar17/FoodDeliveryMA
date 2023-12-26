@@ -3,6 +3,7 @@ namespace Mango.web.Utility
 {
 	public class SD
 	{
+		public static string CouponAPIBase { get; set; }
 		public enum ApiType
 		{
 			GET,
@@ -11,6 +12,9 @@ namespace Mango.web.Utility
 			DELETE
 		}
 
-	}
+        internal class CouponApi
+        {
+        }
+    }
 }
 

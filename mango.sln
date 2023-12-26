@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{824B989C-4E5C-4CE8-9A53-07B568DEFC6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CouponAPI", "Mango.Services.CoupenAPI\Mango.Services.CouponAPI.csproj", "{68748B52-D892-4223-B2FC-07B034ED962A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CouponApi", "Mango.Services.CoupenAPI\Mango.Services.CouponApi.csproj", "{68748B52-D892-4223-B2FC-07B034ED962A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.web", "Mango.web\Mango.web.csproj", "{A17A614A-DF2F-4ACA-8031-12169F9647D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.AuthApi", "Mango.Services.CoupenAPI\Mango.Services.CouponApi\Mango.Services.AuthApi.csproj", "{45ED16F5-4FC0-4709-9E96-2EEB74E13497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A17A614A-DF2F-4ACA-8031-12169F9647D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A17A614A-DF2F-4ACA-8031-12169F9647D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A17A614A-DF2F-4ACA-8031-12169F9647D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45ED16F5-4FC0-4709-9E96-2EEB74E13497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45ED16F5-4FC0-4709-9E96-2EEB74E13497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45ED16F5-4FC0-4709-9E96-2EEB74E13497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45ED16F5-4FC0-4709-9E96-2EEB74E13497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{68748B52-D892-4223-B2FC-07B034ED962A} = {824B989C-4E5C-4CE8-9A53-07B568DEFC6D}
 		{A17A614A-DF2F-4ACA-8031-12169F9647D4} = {B340942A-422B-4902-B860-0F5FFF575EC3}
+		{45ED16F5-4FC0-4709-9E96-2EEB74E13497} = {824B989C-4E5C-4CE8-9A53-07B568DEFC6D}
 	EndGlobalSection
 EndGlobal

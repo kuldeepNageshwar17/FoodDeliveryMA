@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Mango.Services.CouponAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Coupon")]
     public class CouponApiController : Controller
     {
         private readonly AppDbContext _db;
@@ -53,7 +53,7 @@ namespace Mango.Services.CouponAPI.Controllers
 
             try
             {
-                Coupon obj = _db.Coupons.First(u => u.CuponId == id);
+                Coupon obj = _db.Coupons.First(u => u.CouponId == id);
                 _response.Result = _mapper.Map<CouponDto>(obj);
 
             }
@@ -121,19 +121,20 @@ namespace Mango.Services.CouponAPI.Controllers
             {
                 _response.IsSuccess = false;
                 _response.Message = ex.Message;
-               
+
             }
             return _response;
         }
-    
-        
+
+
         // DELETE api/values/5
         [HttpDelete]
+        [Route("{id:int}")]
         public ResponseDto delete(int id)
         {
             try
             {
-                Coupon obj = _db.Coupons.First(u => u.CuponId == id);
+                Coupon obj = _db.Coupons.First(u => u.CouponId == id);
                 _db.Coupons.Remove(obj);
                 _db.SaveChanges();
 

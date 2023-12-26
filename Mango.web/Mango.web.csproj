@@ -12,12 +12,15 @@
     <Folder Include="Utility\" />
     <Folder Include="Service\" />
     <Folder Include="Service\IService\" />
+    <Folder Include="Views\Coupon\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Service\" />
     <None Remove="Service\IService\" />
+    <None Remove="Views\Coupon\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
   </ItemGroup>
 </Project>

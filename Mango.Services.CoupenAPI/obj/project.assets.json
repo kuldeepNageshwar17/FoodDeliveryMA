@@ -3435,9 +3435,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nageshwar/projects/VisualStudioProjects/mango/Mango.Services.CoupenAPI/Mango.Services.CouponAPI.csproj",
-      "projectName": "Mango.Services.CouponAPI",
-      "projectPath": "/Users/nageshwar/projects/VisualStudioProjects/mango/Mango.Services.CoupenAPI/Mango.Services.CouponAPI.csproj",
+      "projectUniqueName": "/Users/nageshwar/projects/VisualStudioProjects/mango/Mango.Services.CoupenAPI/Mango.Services.CouponApi.csproj",
+      "projectName": "Mango.Services.CouponApi",
+      "projectPath": "/Users/nageshwar/projects/VisualStudioProjects/mango/Mango.Services.CoupenAPI/Mango.Services.CouponApi.csproj",
       "packagesPath": "/Users/nageshwar/.nuget/packages/",
       "outputPath": "/Users/nageshwar/projects/VisualStudioProjects/mango/Mango.Services.CoupenAPI/obj/",
       "projectStyle": "PackageReference",
@@ -3448,6 +3448,7 @@
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3520,7 +3521,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -15,7 +15,7 @@ namespace Mango.Services.CouponAPI.Migrations
                 name: "Coupons",
                 columns: table => new
                 {
-                    CuponId = table.Column<int>(type: "int", nullable: false)
+                    CouponId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CouponCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DiscountAmount = table.Column<double>(type: "float", nullable: false),
@@ -25,7 +25,7 @@ namespace Mango.Services.CouponAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Coupons", x => x.CuponId);
+                    table.PrimaryKey("PK_Coupons", x => x.CouponId);
                 });
         }
 
